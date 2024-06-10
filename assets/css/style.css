@@ -9,4 +9,28 @@
     padding: 0;
 }
 
+/* General Styling for all */
+body {
+    font-family: "Montserrat", sans-serif;
+}
 
+
+/* Header Styling*/
+header {
+    background-color: rgb(156, 211, 211);
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main Styling */
+main {
+    background-color: rgb(211, 206, 155);
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgb(164, 139, 188);
+}
