@@ -59,23 +59,30 @@ header {
 
 
 header a {
-    text-decoration: none; /* removing the line under the links. */
-    color: inherit; /* take care of the default link color being applied by the browser. */
+    text-decoration: none;
+    /* removing the line under the links. */
+    color: inherit;
+    /* take care of the default link color being applied by the browser. */
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: "Montserrat", sans-serif;
-    text-transform: uppercase; /* so we can easily change the casing if the h1 logo */
-    letter-spacing: 2px;  /* letter spacing of the h1 logo */
-    color: #252525; /* set its color so that it stands out a little bit from the other links. */
+    text-transform: uppercase;
+    /* so we can easily change the casing if the h1 logo */
+    letter-spacing: 2px;
+    /* letter spacing of the h1 logo */
+    color: #252525;
+    /* set its color so that it stands out a little bit from the other links. */
 
 }
 
 /* increase menu item font-size, increase letter-spacng and remove the bullits on the side */
 #menu {
-        font-size: 110%;
-        letter-spacing: 4px;
-        list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
 
 /* Set this class on the resp. html page when they are up and running */
@@ -93,8 +100,10 @@ nav {
     left: 0;
     padding: 1em;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: none; /* set the display to none by default, so the nav bar items are hidden until the user clicks to open them. The nav bar is now hidden, */
-    top: 100%; /* Effectively, this tells the navigation element that the top of the element should start at the bottom of its parent.
+    display: none;
+    /* set the display to none by default, so the nav bar items are hidden until the user clicks to open them. The nav bar is now hidden, */
+    top: 100%;
+    /* Effectively, this tells the navigation element that the top of the element should start at the bottom of its parent.
                 0% would represent the top of the parent, and 100% represents the bottom of it. */
 }
 
@@ -111,34 +120,51 @@ When this is checked, we want the sibling nav element to display. */
 }
 
 
-.nav-toggle-label { /* we made a class for this in the html file so we can target this label and make it bigger  */
+.nav-toggle-label {
+    /* we made a class for this in the html file so we can target this label and make it bigger  */
     font-size: 2rem;
 }
+
 /* target the list items inside the menu It would look even better if they were a bit further spaced out vertically . Add 1em to bottom of ever li element*/
-#menu > li {
-            margin-bottom: 1em;
+#menu>li {
+    margin-bottom: 1em;
 }
 
 /* Main content styling */
 main {
-    
-    flex: 1 0 auto; /* Make main element take up surplus space */
+
+    flex: 1 0 auto;
+    /* Make main element take up surplus space */
     margin-top: 39px;
 }
 
 /* Welcome picture selector */
 #welcome {
-height: 500px;
-width: 100%;
-background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center center/cover;
-/* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
-/* background: url(../images/desert-5994617_1280.jpg) no-repeat center center/cover; */
+    height: 500px;
+    width: 100%;
+    background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center center/cover;
+    /* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
+    /* background: url(../images/desert-5994617_1280.jpg) no-repeat center center/cover; */
+    position: relative;
+}
 
-
-
+#usp {
+    background-color: rgba(242, 169, 23, .5);
+    font-size: 110%;
+    position: absolute;
+    bottom: 30px;
+    width: 60%;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    right: 0;
 
 }
 
+#usp > h2, #usp >h3 {
+    color: #3a3a3a;
+}
 /* Footer Styling */
 #social-networks {
     text-align: center;
@@ -148,6 +174,7 @@ background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center cent
     padding: 20px 0;
     list-style: none;
 }
+
 /* This is targeted at the id an the i that is an element in font awesome link */
 #social-networks i {
     font-size: 140%;
@@ -157,6 +184,7 @@ background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center cent
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -165,10 +193,14 @@ background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center cent
         width: fit-content;
         padding-right: 1rem;
     }
-   #menu {
-    display: flex;} /* This moves the menu horisontally on same row */
 
-    #menu > li {
+    #menu {
+        display: flex;
+    }
+
+    /* This moves the menu horisontally on same row */
+
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -186,7 +218,7 @@ background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center cent
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 89.59px;
-}
+    }
 
 }
 
@@ -194,8 +226,8 @@ background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center cent
 @media screen and (min-width: 992px) {
 
     /* a is the button to target with hover */
-#menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
-}
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 
 }
