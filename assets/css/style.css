@@ -3,14 +3,26 @@
 
 /* Override default browser style settings with this * (wildcard asterisk) */
 
-    {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 
 /* General Styling for all */
 body {
     font-family: "Montserrat", sans-serif;
+
+    min-height: 100vh;
+    /* Using min-height will allow it to stretch larger than the height of the screen when there is enough content on the page that the user needs to scroll.  */
+    
+    /* set the display to flex and the flex-direction to column, so our elements will still show underneath each other. */
+    display: flex;
+    flex-direction: column;
+
+    /* For generic project styles */
+    color: #3a3a3a;
 }
 
 /* Header Styling*/
@@ -21,6 +33,8 @@ header {
 /* Main Styling */
 main {
     background-color: rgb(211, 206, 155);
+    flex: 1 0 auto;
+    /* Make main element take up surplus space */
 }
 
 /* Footer Styling */
