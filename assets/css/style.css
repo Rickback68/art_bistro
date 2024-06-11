@@ -16,29 +16,6 @@ body {
 /* Header Styling*/
 header {
     background-color: rgb(156, 211, 211);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Navigation Styling */
-nav {
-    display: flex;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 20px;
 }
 
 /* Main Styling */
