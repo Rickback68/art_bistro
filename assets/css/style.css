@@ -127,11 +127,20 @@ margin-top: 39px;
 }
 
 /* Footer Styling */
-footer {
-    background-color: rgb(164, 139, 188);
+#social-networks {
+    text-align: center;
+    /* This flips it down vertikal and spreads the icons out */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    list-style: none;
 }
-
-
+/* This is targeted at the id an the i that is an element in font awesome link */
+#social-networks i {
+    font-size: 140%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
