@@ -32,7 +32,7 @@ body {
 
 /* Header Styling*/
 header {
-    background-color: rgb(156, 211, 211);
+    background-color: orange;
     padding: 0 1rem;
     /* padding left and right to prevent our heading text from sticking to the side of the screen. */
     position: fixed;
@@ -88,7 +88,7 @@ h1 {
 nav {
     position: absolute;
     /* Absolute positioning takes an element outside the normal flow of the page structure. It is positioned relative to the nearest positioned ancestor in our case, the header. */
-    background-color:  rgb(156, 211, 211);
+    background-color: inherit;
     width: 100%;
     left: 0;
     padding: 1em;
@@ -121,9 +121,22 @@ When this is checked, we want the sibling nav element to display. */
 
 /* Main content styling */
 main {
-    background-color: rgb(211, 206, 155);
+    
     flex: 1 0 auto; /* Make main element take up surplus space */
-margin-top: 39px;
+    margin-top: 39px;
+}
+
+/* Welcome picture selector */
+#welcome {
+height: 500px;
+width: 100%;
+background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center center/cover;
+/* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
+/* background: url(../images/desert-5994617_1280.jpg) no-repeat center center/cover; */
+
+
+
+
 }
 
 /* Footer Styling */
