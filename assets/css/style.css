@@ -73,9 +73,23 @@ h1 {
         list-style-type: none;
 }
 
+/* Set this class on the resp. html page when they are up and running */
 .active-menu {
     border-bottom: 1px solid;
     color: #252525;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    /* Absolute positioning takes an element outside the normal flow of the page structure. It is positioned relative to the nearest positioned ancestor in our case, the header. */
+    background-color:  rgb(156, 211, 211);
+    width: 100%;
+    left: 0;
+    padding: 1em;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none; /* set the display to none by default, so the nav bar items are hidden until the user clicks to open them. The nav bar is now hidden, */
+
 }
 
 /* target the list items inside the menu It would look even better if they were a bit further spaced out vertically . Add 1em to bottom of ever li element*/
