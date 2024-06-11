@@ -1,10 +1,9 @@
 /* Import Montserrat and Oswald font from Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/* Override default browser style settings with this * (wildcard asterisk) */
 
-
-/* Override default browser style settings with this * (wildcard asterisk)  */
-* {
+    {
     margin: 0;
     padding: 0;
 }
@@ -14,19 +13,13 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-
-
-/* Main Styling */
-main {
-    background-color: rgb(211, 206, 155);
-}
-
 /* Header Styling*/
 header {
     background-color: rgb(156, 211, 211);
-    display: flex; /* Add flex display to align items in a row */
-    justify-content: space-between; /* Align items horizontally with space between */
-    align-items: center; /* Center items vertically */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 header a {
@@ -34,25 +27,24 @@ header a {
     color: inherit;
 }
 
-/* Navigation list Styling */
+/* Navigation Styling */
 nav {
-    display: flex; /* Add flex display to align navigation items in a row */
+    display: flex;
 }
 
 nav ul {
-    list-style-type: none; /* Remove bullet points from list */
-    display: flex; /* Align list items horizontally */
+    list-style: none;
+    display: flex;
 }
 
-nav li {
-    margin-right: 10px; /* Add some spacing between list items */
+nav ul li {
+    margin-right: 20px;
 }
 
-nav a {
-    text-decoration: none;
-    color: inherit;
+/* Main Styling */
+main {
+    background-color: rgb(211, 206, 155);
 }
-
 
 /* Footer Styling */
 footer {
