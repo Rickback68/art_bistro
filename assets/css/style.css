@@ -51,7 +51,12 @@ header {
     soft or hard the shadow will look.
     Finally, we'll use a color value so we don't default to pure black.
     For this, we'll use the hex code of #3a3a3a,  */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
+
 
 header a {
     text-decoration: none; /* removing the line under the links. */
@@ -89,9 +94,26 @@ nav {
     padding: 1em;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none; /* set the display to none by default, so the nav bar items are hidden until the user clicks to open them. The nav bar is now hidden, */
-
+    top: 100%; /* Effectively, this tells the navigation element that the top of the element should start at the bottom of its parent.
+                0% would represent the top of the parent, and 100% represents the bottom of it. */
 }
 
+/* Check boxes have a pseudo class that indicates when they are checked, which we can use in our css.
+When this is checked, we want the sibling nav element to display. */
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+/* we made a class for this in the html file so we can target this label and make it bigger  */
+.nav-toggle-label {
+    font-size: 2rem;
+}
 /* target the list items inside the menu It would look even better if they were a bit further spaced out vertically . Add 1em to bottom of ever li element*/
 #menu > li {
             margin-bottom: 1em;
