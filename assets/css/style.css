@@ -18,7 +18,7 @@ body {
 
     min-height: 100vh;
     /* Using min-height will allow it to stretch larger than the height of the screen when there is enough content on the page that the user needs to scroll.  */
-    
+
     /* set the display to flex and the flex-direction to column, so our elements will still show underneath each other. */
     display: flex;
     flex-direction: column;
@@ -33,6 +33,24 @@ body {
 /* Header Styling*/
 header {
     background-color: rgb(156, 211, 211);
+    padding: 0 1rem;
+    /* padding left and right to prevent our heading text from sticking to the side of the screen. */
+    position: fixed;
+    /* This will make it revert to content width when made fixed, (fix this with width 100%)*/
+    width: 100%;
+    z-index: 99;
+    /* use 99 to make sure it's layered on top of any other elements that might have a z-index later. */
+    box-shadow: 0 2px 2px #3a3a3a;
+    /* The first mandatory value of box-shadow is the horizontal offset. Negative values offset this to the left, positive ones to the right of the element.
+    We don't need this since our header is full width anyway,
+    so let's set that to zero.
+    The next value is the vertical offset, which is also mandatory.
+    A positive value will display the shadow below the element, a negative value above.
+    We only want a small shadow at the bottom here, so let's set that to 2px.
+    The third value will add here, sets the blur, which is essentially how
+    soft or hard the shadow will look.
+    Finally, we'll use a color value so we don't default to pure black.
+    For this, we'll use the hex code of #3a3a3a,  */
 }
 
 h1 {
