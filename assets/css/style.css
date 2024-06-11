@@ -167,3 +167,13 @@ footer {
 }
 
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 992px) {
+
+    /* a is the button to target with hover */
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+}
