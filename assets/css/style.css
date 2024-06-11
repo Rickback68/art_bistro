@@ -73,6 +73,11 @@ h1 {
         list-style-type: none;
 }
 
+.active-menu {
+    border-bottom: 1px solid;
+    color: #252525;
+}
+
 /* target the list items inside the menu It would look even better if they were a bit further spaced out vertically . Add 1em to bottom of ever li element*/
 #menu > li {
             margin-bottom: 1em;
