@@ -110,8 +110,8 @@ When this is checked, we want the sibling nav element to display. */
     display: none;
 }
 
-/* we made a class for this in the html file so we can target this label and make it bigger  */
-.nav-toggle-label {
+
+.nav-toggle-label { /* we made a class for this in the html file so we can target this label and make it bigger  */
     font-size: 2rem;
 }
 /* target the list items inside the menu It would look even better if they were a bit further spaced out vertically . Add 1em to bottom of ever li element*/
@@ -122,8 +122,8 @@ When this is checked, we want the sibling nav element to display. */
 /* Main content styling */
 main {
     background-color: rgb(211, 206, 155);
-    flex: 1 0 auto;
-    /* Make main element take up surplus space */
+    flex: 1 0 auto; /* Make main element take up surplus space */
+margin-top: 39px;
 }
 
 /* Footer Styling */
