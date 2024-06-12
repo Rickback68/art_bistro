@@ -33,7 +33,7 @@ body {
 /* Header Styling*/
 header {
     background-color: orange;
-    padding: 0 2rem;
+    padding: 0 0rem;
     /* padding left and right to prevent our heading text from sticking to the side of the screen. */
     position: fixed;
     /* This will make it revert to content width when made fixed, (fix this with width 100%)*/
@@ -65,11 +65,13 @@ header a {
     /* take care of the default link color being applied by the browser. */
 }
 #logo {
-    font-size: 200%;
+    font-size: 190%;
     line-height: 60px;
-    margin: 0 1 rem;
+    margin: 0 1rem;
 }
-
+.fa-utensils {
+    font-size: 75%;
+}
 h1,
 h2,
 h3 {
@@ -85,7 +87,7 @@ h3 {
 
 /* increase menu item font-size, increase letter-spacng and remove the bullits on the side */
 #menu {
-    font-size: 110%;
+    font-size: 130%;
     letter-spacing: 4px;
     list-style-type: none;
 }
@@ -128,6 +130,7 @@ When this is checked, we want the sibling nav element to display. */
 .nav-toggle-label {
     /* we made a class for this in the html file so we can target this label and make it bigger  */
     font-size: 2rem;
+    margin-right: 2%;
 }
 
 /* target the list items inside the menu It would look even better if they were a bit further spaced out vertically . Add 1em to bottom of ever li element*/
@@ -145,7 +148,7 @@ main {
 
 /* Welcome picture selector */
 #welcome {
-    height: 600px;
+    height: 720px;
     width: 100%;
     background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center center/cover;
     /* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
