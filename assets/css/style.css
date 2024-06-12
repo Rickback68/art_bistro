@@ -33,7 +33,7 @@ body {
 /* Header Styling*/
 header {
     background-color: orange;
-    padding: 0 1rem;
+    padding: 0 2rem;
     /* padding left and right to prevent our heading text from sticking to the side of the screen. */
     position: fixed;
     /* This will make it revert to content width when made fixed, (fix this with width 100%)*/
@@ -63,6 +63,11 @@ header a {
     /* removing the line under the links. */
     color: inherit;
     /* take care of the default link color being applied by the browser. */
+}
+#logo {
+    font-size: 200%;
+    line-height: 60px;
+    margin: 0 1 rem;
 }
 
 h1,
@@ -140,7 +145,7 @@ main {
 
 /* Welcome picture selector */
 #welcome {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center center/cover;
     /* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
@@ -154,10 +159,11 @@ main {
     position: absolute;
     bottom: 30px;
     width: 60%;
-    min-height: 200px;
-    padding-top: 30px;
+    min-height: 100px;
+    padding-top: 20px;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
     right: 0;
 
 }
@@ -166,6 +172,8 @@ main {
     color: #3a3a3a;
 }
 /* Footer Styling */
+
+
 #social-networks {
     text-align: center;
     /* This flips it down vertikal and spreads the icons out */
@@ -173,6 +181,7 @@ main {
     justify-content: space-evenly;
     padding: 20px 0;
     list-style: none;
+    background-color: orange;
 }
 
 /* This is targeted at the id an the i that is an element in font awesome link */
@@ -180,6 +189,7 @@ main {
     font-size: 140%;
     padding: 5%;
     color: #3a3a3a;
+    
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -210,10 +220,15 @@ main {
 
     #logo {
         font-size: 250%;
-        line-height: 75px;
+        line-height: 0px;
         margin: 0 1 rem;
+        padding-top: 50px;
+        
     }
-
+    #usp {
+        width: 350px;
+        bottom: 40px;
+    }
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -222,12 +237,15 @@ main {
 
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
     /* a is the button to target with hover */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-
+#usp {
+    width: 500px;
+    bottom: 40px;
+}
 }
