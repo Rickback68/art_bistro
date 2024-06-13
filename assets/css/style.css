@@ -129,8 +129,6 @@ main {
     height: 720px;
     width: 100%;
     background: url(../images/Welcome_\ food-5282718_1280.jpg) no-repeat center center/cover;
-    /* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
-    /* background: url(../images/desert-5994617_1280.jpg) no-repeat center center/cover; */
     position: relative;
 }
 
@@ -153,6 +151,36 @@ main {
     color: #3a3a3a;
 }
 
+/* Kitchen section styling */
+#foodies-section {
+    background-color: rgba(242, 169, 23, .5);
+    font-size: 110%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    bottom: 40px;
+    width: 80%;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    left: 0;
+    
+p {
+    font-size: 80%;
+}
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 80%;
+    background-color: rgba(242, 169, 23, .5);
+    text-align: center;
+    padding: 20px; */
+
+    /* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
+    /* background: url(../images/vintage-791942_1280.jpg) no-repeat center center/cover; */
+}
+
 /* Food menu styling */
 /* This will style the overall style of the food section with id #food-section */
 #food-section {
@@ -169,19 +197,21 @@ main {
     font-size: 300%;
     margin-bottom: 20px;
     text-decoration-line: underline;
-    
-}
-/* This is the general style for all item */
-.food-item
-{
-   font-size: 100%;
-   margin-bottom: 20px; 
 
 }
+
+/* This is the general style for all item */
+.food-item {
+    font-size: 100%;
+    margin-bottom: 20px;
+
+}
+
 /* This is the style for the imems title only */
 #food-item-title {
-    font-size:110%;
+    font-size: 110%;
 }
+
 /* This is the style for the three menu courses starters, main and dessert */
 .food-course {
     margin-top: 50px;
@@ -189,9 +219,11 @@ main {
     color: darkorange;
 }
 
+/* This takes the nav menu option Dine to top of the section #food-section */
 #food-section {
-    scroll-margin-top: 300px; /* Adjust this value as needed to show the top of the section */
-  }
+    scroll-margin-top: 300px;
+    /* Adjust this value as needed to show the top of the section */
+}
 
 /* Footer Styling */
 #social-networks {
