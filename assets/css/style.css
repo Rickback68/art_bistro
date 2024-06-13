@@ -189,7 +189,9 @@ main {
     color: darkorange;
 }
 
-
+#food-section {
+    scroll-margin-top: 300px; /* Adjust this value as needed to show the top of the section */
+  }
 
 /* Footer Styling */
 #social-networks {
