@@ -154,11 +154,11 @@ main {
 
 /* info section */
 #info {
-width: 90%;
-margin: 20px auto;
+    width: 90%;
+    margin: 20px auto;
 }
 
-#info > div {
+#info>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -169,7 +169,7 @@ margin: 20px auto;
 
 
 #foodie-p {
-font-size: 100%;
+    font-size: 100%;
 }
 
 /* Food menu styling */
@@ -218,21 +218,23 @@ font-size: 100%;
 
 
 
+/* Gallery page */
 
-/* Footer Styling */
-#social-networks {
-    text-align: center;
-    /* This flips it down vertikal and spreads the icons out */
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    list-style: none;
-    background-color: orange;
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    /* This is incase a link is brokenn and we want to se the fall back text */
 }
 
 
-/* Contact form */
-        
+#photos {
+    line-height: 0;
+}
+
+/* Contact form  page */
+
+
+
 #contact-id {
     text-align: center;
     margin-top: 100px;
@@ -244,7 +246,7 @@ font-size: 100%;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -279,11 +281,35 @@ input[type="submit"]:hover {
 }
 
 
+
+/* Footer Styling */
+#social-networks {
+    text-align: center;
+    /* This flips it down vertikal and spreads the icons out */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    list-style: none;
+    background-color: orange;
+}
+
+
+
 /* This is targeted at the id an the i that is an element in font awesome link */
 #social-networks i {
     font-size: 140%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+
+
+/* Media query: for large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -328,7 +354,7 @@ input[type="submit"]:hover {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 117.8px;
-        
+
     }
 }
 
@@ -358,6 +384,3 @@ input[type="submit"]:hover {
             bottom: 80px;
             padding-left: 30px;
         }
-
-
-        
