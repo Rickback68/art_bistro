@@ -152,33 +152,35 @@ main {
 }
 
 /* Kitchen section styling */
-#foodies-section {
+#kitchen-section {
+    margin-top: 20px;
+    height: 200px;
+    width: 80%;
+    background-color: rgba(242, 169, 23, .5);
+    text-align: center;
+    padding: 20px;
+    
+    /* Adjust the height based on your requirement */
+
+    /* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
+    /* background: url(../images/vintage-791942_1280.jpg) no-repeat center center/cover; */
+}
+
+#foodies-section{
     background-color: rgba(242, 169, 23, .5);
     font-size: 110%;
-    margin-top: 20px;
-    margin-bottom: 20px;
     bottom: 40px;
-    width: 80%;
+    width: 60%;
     min-height: 100px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 10px;
     padding-bottom: 30px;
     left: 0;
-    
-p {
-    font-size: 80%;
 }
-    /* margin-top: 20px;
-    margin-bottom: 20px;
-    height: 150px;
-    width: 80%;
-    background-color: rgba(242, 169, 23, .5);
-    text-align: center;
-    padding: 20px; */
 
-    /* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
-    /* background: url(../images/vintage-791942_1280.jpg) no-repeat center center/cover; */
+#foodie-p {
+font-size: 80%;
 }
 
 /* Food menu styling */
@@ -224,6 +226,9 @@ p {
     scroll-margin-top: 300px;
     /* Adjust this value as needed to show the top of the section */
 }
+
+
+
 
 /* Footer Styling */
 #social-networks {
