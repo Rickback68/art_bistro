@@ -151,36 +151,24 @@ main {
     color: #3a3a3a;
 }
 
-/* Kitchen section styling */
-#kitchen-section {
-    margin-top: 20px;
-    height: 200px;
-    width: 80%;
-    background-color: rgba(242, 169, 23, .5);
-    text-align: center;
-    padding: 20px;
-    
-    /* Adjust the height based on your requirement */
-
-    /* background: url(../images/kitchen-5055083_1280.jpg) no-repeat center center/cover; */
-    /* background: url(../images/vintage-791942_1280.jpg) no-repeat center center/cover; */
+/* info section */
+#info {
+width: 90%;
+margin: 20px auto;
 }
 
-#foodies-section{
-    background-color: rgba(242, 169, 23, .5);
-    font-size: 110%;
-    bottom: 40px;
-    width: 60%;
-    min-height: 100px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-bottom: 30px;
-    left: 0;
+#info > div {
+    line-height: 20px;
+    margin-bottom: 20px;
 }
+
+#info p {
+    padding: 0 20px;
+}
+
 
 #foodie-p {
-font-size: 80%;
+font-size: 100%;
 }
 
 /* Food menu styling */
