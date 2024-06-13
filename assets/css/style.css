@@ -154,6 +154,41 @@ main {
 }
 
 /* Food menu styling */
+/* This will style the overall style of the food section with id #food-section */
+#food-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* This is the Title of the section MENU */
+.food-title {
+
+    font-size: 300%;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
+    
+}
+/* This is the general style for all item */
+.food-item
+{
+   font-size: 100%;
+   margin-bottom: 20px; 
+
+}
+/* This is the style for the imems title only */
+#food-item-title {
+    font-size:110%;
+}
+/* This is the style for the three menu courses starters, main and dessert */
+.food-course {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    color: darkorange;
+}
+
 
 
 /* Footer Styling */
