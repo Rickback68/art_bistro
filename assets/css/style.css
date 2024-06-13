@@ -229,6 +229,55 @@ font-size: 100%;
     background-color: orange;
 }
 
+
+/* Contact form */
+        
+#contact-id {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
 /* This is targeted at the id an the i that is an element in font awesome link */
 #social-networks i {
     font-size: 140%;
@@ -277,7 +326,8 @@ font-size: 100%;
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 105.8px;
+        margin-top: 117.8px;
+        
     }
 }
 
@@ -307,3 +357,6 @@ font-size: 100%;
             bottom: 80px;
             padding-left: 30px;
         }
+
+
+        
