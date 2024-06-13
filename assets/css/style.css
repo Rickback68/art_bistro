@@ -1,34 +1,25 @@
 /* CSS */
-
 /* Import Montserrat and Oswald font from Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Override default browser style settings with this * (wildcard asterisk) */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 /* General Styling for all */
 body {
     font-family: "Montserrat", sans-serif;
-
     min-height: 100vh;
-    /* Using min-height will allow it to stretch larger than the height of the screen when there is enough content on the page that the user needs to scroll.  */
-
+    /* Using min-height will allow it to stretch larger than the height of the screen when there is enough content on the page that the user needs to scroll. */
     /* set the display to flex and the flex-direction to column, so our elements will still show underneath each other. */
     display: flex;
     flex-direction: column;
-
     /* For generic project styles */
     color: #3a3a3a;
 }
-
-
-
 
 /* Header Styling*/
 header {
@@ -41,22 +32,11 @@ header {
     z-index: 99;
     /* use 99 to make sure it's layered on top of any other elements that might have a z-index later. */
     box-shadow: 0 2px 2px #3a3a3a;
-    /* The first mandatory value of box-shadow is the horizontal offset. Negative values offset this to the left, positive ones to the right of the element.
-    We don't need this since our header is full width anyway,
-    so let's set that to zero.
-    The next value is the vertical offset, which is also mandatory.
-    A positive value will display the shadow below the element, a negative value above.
-    We only want a small shadow at the bottom here, so let's set that to 2px.
-    The third value will add here, sets the blur, which is essentially how
-    soft or hard the shadow will look.
-    Finally, we'll use a color value so we don't default to pure black.
-    For this, we'll use the hex code of #3a3a3a,  */
-
+    /* The first mandatory value of box-shadow is the horizontal offset. Negative values offset this to the left, positive ones to the right of the element. We don't need this since our header is full width anyway, so let's set that to zero. The next value is the vertical offset, which is also mandatory. A positive value will display the shadow below the element, a negative value above. We only want a small shadow at the bottom here, so let's set that to 2px. The third value will add here, sets the blur, which is essentially how soft or hard the shadow will look. Finally, we'll use a color value so we don't default to pure black. For this, we'll use the hex code of #3a3a3a, */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
-
 
 header a {
     text-decoration: none;
@@ -64,14 +44,17 @@ header a {
     color: inherit;
     /* take care of the default link color being applied by the browser. */
 }
+
 #logo {
     font-size: 190%;
     line-height: 60px;
     margin: 0 1rem;
 }
+
 .fa-utensils {
     font-size: 75%;
 }
+
 h1,
 h2,
 h3 {
@@ -82,7 +65,6 @@ h3 {
     /* letter spacing of the h1 logo */
     color: #252525;
     /* set its color so that it stands out a little bit from the other links. */
-
 }
 
 /* increase menu item font-size, increase letter-spacng and remove the bullits on the side */
@@ -110,13 +92,10 @@ nav {
     display: none;
     /* set the display to none by default, so the nav bar items are hidden until the user clicks to open them. The nav bar is now hidden, */
     top: 100%;
-    /* Effectively, this tells the navigation element that the top of the element should start at the bottom of its parent.
-                0% would represent the top of the parent, and 100% represents the bottom of it. */
+    /* Effectively, this tells the navigation element that the top of the element should start at the bottom of its parent. 0% would represent the top of the parent, and 100% represents the bottom of it. */
 }
 
-/* Check boxes have a pseudo class that indicates when they are checked, which we can use in our css.
-When this is checked, we want the sibling nav element to display. */
-
+/* Check boxes have a pseudo class that indicates when they are checked, which we can use in our css. When this is checked, we want the sibling nav element to display. */
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -124,11 +103,11 @@ When this is checked, we want the sibling nav element to display. */
 
 #nav-toggle {
     display: none;
+    s
 }
 
-
 .nav-toggle-label {
-    /* we made a class for this in the html file so we can target this label and make it bigger  */
+    /* we made a class for this in the html file so we can target this label and make it bigger */
     font-size: 2rem;
     margin-right: 2%;
 }
@@ -140,7 +119,6 @@ When this is checked, we want the sibling nav element to display. */
 
 /* Main content styling */
 main {
-
     flex: 1 0 auto;
     /* Make main element take up surplus space */
     margin-top: 39px;
@@ -168,15 +146,14 @@ main {
     padding-right: 10px;
     padding-bottom: 30px;
     right: 0;
-
 }
 
-#usp > h2, #usp >h3 {
+#usp>h2,
+#usp>h3 {
     color: #3a3a3a;
 }
+
 /* Footer Styling */
-
-
 #social-networks {
     text-align: center;
     /* This flips it down vertikal and spreads the icons out */
@@ -192,7 +169,6 @@ main {
     font-size: 140%;
     padding: 5%;
     color: #3a3a3a;
-    
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -212,7 +188,6 @@ main {
     }
 
     /* This moves the menu horisontally on same row */
-
     #menu>li {
         padding-left: 1rem;
     }
@@ -226,19 +201,19 @@ main {
         line-height: 0px;
         margin: 0 1 rem;
         padding-top: 50px;
-        
     }
+
     #usp {
         width: 300px;
         bottom: 60px;
         padding-left: 20px;
     }
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 101.59px;
+        margin-top: 105.8px;
     }
-
 }
 
 /* Media query: tablets and larger (992px and up) */
@@ -248,21 +223,22 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-#usp {
-    width: 450px;
-    bottom: 80px;
-}
 
-/* Media query: tablets and larger (1440px and up) */
-@media screen and (min-width: 1440px) {
-
-    /* a is the button to target with hover */
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+    #usp {
+        width: 450px;
+        bottom: 80px;
     }
-#usp {
-    width: 600px;
-    bottom: 80px;
-    padding-left: 30px;
-}
-}
+
+    /* Media query: tablets and larger (1440px and up) */
+    @media screen and (min-width: 1440px) {
+
+        /* a is the button to target with hover */
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+
+        #usp {
+            width: 600px;
+            bottom: 80px;
+            padding-left: 30px;
+        }
