@@ -138,7 +138,7 @@ main {
     background-color: rgba(242, 169, 23, .5);
     font-size: 110%;
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     width: 60%;
     min-height: 100px;
     padding-top: 20px;
@@ -363,7 +363,7 @@ input[type="submit"]:hover {
 
 /* This is targeted at the id an the i that is an element in font awesome link */
 #social-networks i {
-    font-size: 140%;
+    font-size: 200%;
     padding: 5%;
     color: #3a3a3a;
 }
