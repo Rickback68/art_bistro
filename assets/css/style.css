@@ -280,26 +280,39 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Footer */
-
+/* Footer Styling */
 .footer {
     background-color: orange;
     color: #3a3a3a;
     text-align: center;
     padding: 20px;
-  }
-  
-  .footer section {
-    display: inline-block;
-    margin: 0 20px;
-  }
-  
-  .footer section h3 {
-    margin-bottom: 10px;
-  }
-  
-  .footer section p {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer section {
+    flex: 1;
+}
+
+.footer section h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+.footer section p {
     font-size: 14px;
+}
+
+#social-networks {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: orange;
+    padding: 20px 0;
+    gap: 0rem; /* Adds some space between social media icons */
+}
 
 /* This is targeted at the id an the i that is an element in font awesome link */
 #social-networks i {
@@ -308,7 +321,13 @@ input[type="submit"]:hover {
     color: #3a3a3a;
 }
 
-
+@media (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
 
 /* Media query: for large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
