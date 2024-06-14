@@ -246,7 +246,10 @@ main {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px; /* Add margin-bottom to create space after the contact form */
 }
+    
+
 
 form {
     width: 100%;
@@ -316,6 +319,10 @@ input[type="submit"]:hover {
     font-size: 14px;
 }
 
+#info-div a {
+    text-decoration: none;
+    color: inherit;
+}
 #social-networks {
     text-align: center;
     display: flex;
@@ -347,8 +354,10 @@ input[type="submit"]:hover {
     .contact-form {
         width: 90%;
         margin: 0 auto;
-    }
+        margin-bottom: 50px; /* Add margin-bottom to create space after the contact form */
 }
+    }
+
 
 /* Media query: for large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -404,6 +413,22 @@ input[type="submit"]:hover {
 
     }
 
+    #contact-id {
+        text-align: left;
+        margin-top: 100px;
+        margin-left: 25%;
+        margin-bottom: 5px;
+    }
+    #form-section p {
+        
+        font-size: 80%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 2%;
+       
+        
+       
+    }
 }
 
 
