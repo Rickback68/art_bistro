@@ -346,7 +346,15 @@ input[type="submit"]:hover {
 
 
 }
+/* Map styling */
+.map-container {
+    display: flex;
+    justify-content: center;
+}
 
+iframe {
+    margin-top: 20px;
+}
 
 
 /* Footer Styling */
