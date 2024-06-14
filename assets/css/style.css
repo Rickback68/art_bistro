@@ -311,7 +311,7 @@ input[type="submit"]:hover {
     list-style: none;
     background-color: orange;
     padding: 20px 0;
-    gap: 0rem; /* Adds some space between social media icons */
+    gap: 2rem; /* Adds some space between social media icons */
 }
 
 /* This is targeted at the id an the i that is an element in font awesome link */
