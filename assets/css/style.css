@@ -233,8 +233,10 @@ main {
 /* Contact form  page */
 
 #contact-id {
-    text-align: center;
+    text-align: left;
     margin-top: 100px;
+    margin-left: 11%;
+    margin-bottom: 5px;
 }
 
 .contact-form {
@@ -278,7 +280,15 @@ input[type="submit"]:hover {
 }
 
 
-
+#form-section p {
+    text-align: left;
+    font-size: 80%;
+    margin-left: 11%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    
+   
+}
 
 
 
