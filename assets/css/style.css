@@ -342,18 +342,24 @@ input[type="submit"]:hover {
     font-size: 80%;
     margin-left: 11%;
     margin-right: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 
 
 }
 /* Map styling */
 .map-container {
+    margin-top: 1em;
     display: flex;
     justify-content: center;
 }
-
+#map-address {
+    margin-top: 1em;
+    text-align: center;
+    
+}
 iframe {
     margin-top: 20px;
+    width: 80%;
 }
 
 
@@ -546,4 +552,19 @@ iframe {
         width: 40%;
         margin: 0 auto;
     }
+    #form-section p {
+
+        font-size: 90%;
+        margin-left: 31%;
+        margin-right: 31%;
+        margin-bottom: 2%;
+    }
+    #contact-id {
+        
+        margin-left: 31%;
+        
+    }
+
+   
+    
 }
