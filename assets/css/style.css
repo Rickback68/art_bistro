@@ -343,7 +343,7 @@ input[type="submit"]:hover {
 
 /* Footer Styling */
 .footer {
-    background-color: orange;
+    
     color: #3a3a3a;
     text-align: center;
     padding: 20px;
@@ -380,7 +380,7 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    background-color: orange;
+    
     padding: 20px 0;
     gap: 2rem;
     /* Adds some space between social media icons */
@@ -487,6 +487,10 @@ input[type="submit"]:hover {
         /* Change the color to orange on hover */
     }
 
+    #map-id {
+        height: 300px;
+    }
+
 }
 
 
@@ -506,6 +510,11 @@ input[type="submit"]:hover {
     #photos {
         column-count: 3;
         column-gap: 0;
+    }
+
+    #map-id {
+        height: 500px;
+      
     }
 }
 
