@@ -128,7 +128,7 @@ main {
 #welcome {
     height: 720px;
     width: 100%;
-    background: url(../images/food-5282718_1920.webp) no-repeat center center/cover;
+    background: url(../images/artdessert_1920.webp) no-repeat center center/cover;
     position: relative;
 }
 
@@ -162,35 +162,36 @@ main {
 /* Food menu link on index page */
 
 #food-link {
-    
+
     margin-top: 20px;
-     line-height: 20px;
-     margin-bottom: 20px;
-     background: url(../images/soup_1920.webp) no-repeat center center/cover;
-     height: 100px;
-     text-decoration: none;
- }
- 
- /* Wine menu link on index page */
- 
- #wine-link {
-     
-     margin-top: 20px;
-      line-height: 20px;
-      margin-bottom: 20px;
-      background: url(../images/wine_1280.webp) no-repeat center center/cover;
-      height: 100px;
-      text-decoration: none;
-  }
- 
- #link-h3-titles {
-     color: #fff;
-     text-align: right; /* Align text to center */
-     position: flex;
-     padding: 2%;
-     
- } 
- 
+    line-height: 20px;
+    margin-bottom: 20px;
+    background: url(../images/soup_1920.webp) no-repeat center center/cover;
+    height: 100px;
+    text-decoration: none;
+}
+
+/* Wine menu link on index page */
+
+#wine-link {
+
+    margin-top: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    background: url(../images/wine_1280.webp) no-repeat center center/cover;
+    height: 100px;
+    text-decoration: none;
+}
+
+#link-h3-titles {
+    color: #fff;
+    text-align: right;
+    /* Align text to center */
+    position: flex;
+    padding: 2%;
+
+}
+
 #info p {
     padding: 0 20px;
 }
@@ -274,9 +275,10 @@ main {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 100px; /* Add margin-bottom to create space after the contact form */
+    margin-bottom: 100px;
+    /* Add margin-bottom to create space after the contact form */
 }
-    
+
 
 
 form {
@@ -317,8 +319,8 @@ input[type="submit"]:hover {
     margin-left: 11%;
     margin-right: 10%;
     margin-bottom: 5%;
-    
-   
+
+
 }
 
 
@@ -351,6 +353,12 @@ input[type="submit"]:hover {
     text-decoration: none;
     color: inherit;
 }
+
+#address-div a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #social-networks {
     text-align: center;
     display: flex;
@@ -358,7 +366,8 @@ input[type="submit"]:hover {
     list-style: none;
     background-color: orange;
     padding: 20px 0;
-    gap: 2rem; /* Adds some space between social media icons */
+    gap: 2rem;
+    /* Adds some space between social media icons */
 }
 
 /* This is targeted at the id an the i that is an element in font awesome link */
@@ -381,9 +390,10 @@ input[type="submit"]:hover {
     .contact-form {
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 50px; /* Add margin-bottom to create space after the contact form */
-}
+        margin-bottom: 50px;
+        /* Add margin-bottom to create space after the contact form */
     }
+}
 
 
 /* Media query: for large or landscape phones (576px and up) */
@@ -392,7 +402,7 @@ input[type="submit"]:hover {
         column-count: 2;
         column-gap: 0;
     }
-  
+
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -446,12 +456,19 @@ input[type="submit"]:hover {
         margin-left: 25%;
         margin-bottom: 5px;
     }
+
     #form-section p {
-        
+
         font-size: 80%;
         margin-left: 25%;
         margin-right: 25%;
         margin-bottom: 2%;
+    }
+
+
+    #social-networks i:hover, #info-div h3:hover {
+        color: darkorange;
+        /* Change the color to orange on hover */
     }
 
 }
@@ -475,22 +492,23 @@ input[type="submit"]:hover {
         column-gap: 0;
     }
 }
-    /* Media query: tablets and larger (1440px and up) */
-    @media screen and (min-width: 1440px) {
 
-        /* a is the button to target with hover */
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
+/* Media query: tablets and larger (1440px and up) */
+@media screen and (min-width: 1440px) {
 
-        #usp {
-            width: 600px;
-            bottom: 80px;
-            padding-left: 30px;
-        }
-
-        .contact-form {
-            width: 40%;
-            margin: 0 auto;
-        }
+    /* a is the button to target with hover */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
+
+    #usp {
+        width: 600px;
+        bottom: 80px;
+        padding-left: 30px;
+    }
+
+    .contact-form {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
