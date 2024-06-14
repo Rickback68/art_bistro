@@ -154,11 +154,18 @@ main {
 }
 
 /* info section */
+
+
 #info {
     width: 90%;
     margin: 20px auto;
 }
 
+#presentation-div {
+    text-align: center;
+    font-size: 80%;
+    padding: 10%;
+}
 /* Food menu link on index page */
 
 #food-link {
@@ -167,7 +174,7 @@ main {
     line-height: 20px;
     margin-bottom: 20px;
     background: url(../images/soup_1920.webp) no-repeat center center/cover;
-    height: 100px;
+    height: 110px;
     text-decoration: none;
 }
 
@@ -179,11 +186,23 @@ main {
     line-height: 20px;
     margin-bottom: 20px;
     background: url(../images/wine_1280.webp) no-repeat center center/cover;
-    height: 100px;
+    height: 110px;
     text-decoration: none;
 }
 
-/* Map link */
+/* Wine menu link on index page */
+
+#sthlm-link {
+
+    margin-top: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    background: url(../images/reflection_1280.webp) no-repeat center center/cover;
+    height: 110px;
+    text-decoration: none;
+}
+
+* Map link */
 
 #map-id {
 
