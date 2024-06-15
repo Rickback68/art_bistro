@@ -224,7 +224,8 @@ main {
     padding: 3%;
 }
 
-#food-link, #wine-link {
+/* Remove line under linked items */
+#food-link, #wine-link #footer-contact{
     text-decoration: none;
 }
 
@@ -410,7 +411,7 @@ hr {
     font-size: 14px;
 }
 
-#info-div a {
+#info-div a, #footer-contact a {
     text-decoration: none;
     color: inherit;
 }
