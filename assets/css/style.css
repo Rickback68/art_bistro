@@ -190,14 +190,15 @@ main {
 
 /* Wine menu link on index page */
 
-#wine-link {
+#winey-link {
     margin-top: 20px;
     line-height: 20px;
     margin-bottom: 20px;
     background: url(../images/winebottles_1280.webp) no-repeat bottom center/cover;
     height: 250px;
-    text-decoration: none;
 }
+
+
 
 /* Night Stockholm pic */
 
@@ -215,12 +216,16 @@ main {
     text-align: center;
 }
 
-#link-h3-titles {
+#dine-h3-title, #wine-h3-title, #sthlm-h3-title {
+    text-decoration: none;
     color: #fff;
     text-align: left;
-    /* Align text to center */
     position: flex;
     padding: 3%;
+}
+
+#food-link, #wine-link {
+    text-decoration: none;
 }
 
 /* This has it's own id for text concersion againt white background on 767px res */
@@ -527,20 +532,20 @@ hr {
         /* Change the color to orange on hover */
     }
 
-    #arguments {
+    #argument1, #argument2, #argument3, #argument4{
         font-size: 200%;
     }
 
-    /* Food menu link on index page */
+    /* Food menu link picture on index page */
 
     #foody-link {
         height: 400px;
         text-decoration: none;
     }
 
-    /* Wine menu link on index page */
+    /* Wine menu link picture height on index page */
 
-    #wine-link {
+    #winey-link {
         height: 400px;
     }
 
