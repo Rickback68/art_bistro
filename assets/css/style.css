@@ -103,7 +103,6 @@ nav {
 
 #nav-toggle {
     display: none;
-    s
 }
 
 .nav-toggle-label {
@@ -153,27 +152,14 @@ main {
 
 /* info section */
 
-
 #info {
     width: 90%;
     margin: 20px auto;
 }
 
-#presentation1-div {
+#presentation1-div, #presentation2-div, #presentation3-div {
     text-align: center;
-    font-size: 80%;
-    padding: 10%;
-}
-
-#presentation2-div {
-    text-align: center;
-    font-size: 80%;
-    padding: 10%;
-}
-
-#presentation3-div {
-    text-align: center;
-    font-size: 80%;
+    font-size: 100%;
     padding: 10%;
 }
 
@@ -185,7 +171,7 @@ main {
     margin-bottom: 20px;
     background: url(../images/soup_1920.webp) no-repeat center center/cover;
     height: 250px;
-    text-decoration: none;
+    
 }
 
 /* Wine menu link on index page */
@@ -196,6 +182,7 @@ main {
     margin-bottom: 20px;
     background: url(../images/winebottles_1280.webp) no-repeat bottom center/cover;
     height: 250px;
+    
 }
 
 
@@ -208,7 +195,7 @@ main {
     margin-bottom: 20px;
     background: url(../images/reflection_1280.webp) no-repeat center center/cover;
     height: 250px;
-    text-decoration: none;
+    
 }
 
 
@@ -217,24 +204,32 @@ main {
 }
 
 #dine-h3-title, #wine-h3-title, #sthlm-h3-title {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #fff;
     text-align: left;
-    position: flex;
+    /* position: flex; */
     padding: 3%;
 }
 
-/* Remove line under linked items */
-#food-link, #wine-link #footer-contact{
+#wine-h3-title {
+    /* text-decoration: none; */
+    color: #fff;
+    text-align: right;
+    /* position: flex; */
+    padding: 3%;
+}
+
+/* Remove line under linked items on index page and footer*/
+#food-link, #wine-link, #footer-contact {
     text-decoration: none;
 }
 
-/* This has it's own id for text concersion againt white background on 767px res */
+/* This has it's own id for text conversion against white background on 767px res */
 #wine-h3-titles {
     color: #fff;
     text-align: left;
     /* Align text to center */
-    position: flex;
+    /* position: flex; */
     padding: 3%;
 }
 
@@ -457,12 +452,22 @@ hr {
 }
 
 
-/* Media query: for large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+/* Media query: for large or landscape phones (500px and up) */
+@media screen and (min-width: 500px) {
     #photos {
         column-count: 2;
         column-gap: 0;
     }
+
+    #usp {
+        font-size: 110%;
+        position: absolute;
+        bottom: 80px;
+        width: 40%;
+        
+    }
+
+
 
 }
 
@@ -494,7 +499,7 @@ hr {
     #logo {
         font-size: 230%;
         line-height: 0px;
-        margin: 0 1 rem;
+        margin: 0 1rem;
         padding-top: 50px;
     }
 
@@ -534,14 +539,14 @@ hr {
     }
 
     #argument1, #argument2, #argument3, #argument4{
-        font-size: 200%;
+        font-size: 150%;
     }
 
     /* Food menu link picture on index page */
 
     #foody-link {
         height: 400px;
-        text-decoration: none;
+        /* text-decoration: none; */
     }
 
     /* Wine menu link picture height on index page */
@@ -551,10 +556,10 @@ hr {
     }
 
     /* This has it's own id for text concersion againt white background on 767px res */
-    #wine-h3-titles {
-        color: #252525;
+    
+    #dine-h3-title, #wine-h3-title, #sthlm-h3-title {
         font-size: 200%;
-        padding: 3%;
+        padding-top: 4%;
     }
 
     #link-h3-titles {
@@ -597,6 +602,11 @@ hr {
 
     #food-section {
         font-size: 120%;
+    }
+
+    #dine-h3-title, #wine-h3-title, #sthlm-h3-title {
+        font-size: 250%;
+        padding-top: 4%;
     }
 
 }
