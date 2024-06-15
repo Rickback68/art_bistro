@@ -163,6 +163,26 @@ main {
     padding: 10%;
 }
 
+
+#alittle-about-us {
+    text-align: center;
+    font-size: 85%;
+    padding: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#alittle-about-us i {
+    padding: 25px;
+    font-size: 50%;
+    color: rgb(189, 108, 9);
+}
+
+#alittle-about-us h2 {
+    color: rgb(189, 108, 9);
+    margin-bottom: 30px;
+}
 /* Food menu link on index page */
 
 #foody-link {
@@ -569,6 +589,12 @@ hr {
     #sthlm-link {
         height: 400px;
     }
+    /* a lttle about us text */
+    #alittle-about-us {
+        text-align: center;
+        font-size: 150%;
+        padding: 10%;
+    }
 }
 
 /* Media query: tablets and larger (992px and up) */
@@ -650,5 +676,10 @@ hr {
     #link-h3-titles {
         font-size: 250%;
     }
+
+    #alittle-about-us {
+        
+        margin-left: 20%;
+        margin-right: 20%;
 
 }
