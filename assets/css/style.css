@@ -132,8 +132,6 @@ main {
     position: relative;
 }
 
-
-
 #usp {
     background-color: rgba(242, 169, 23, .5);
     font-size: 110%;
@@ -213,11 +211,16 @@ text-align: center;
     /* Align text to center */
     position: flex;
     padding: 3%;
-   
-    
-    
-
 }
+/* This has it's own id for text concersion againt white background on 767px res */
+#wine-h3-titles {
+    color: #fff;
+    text-align:left;
+    /* Align text to center */
+    position: flex;
+    padding: 3%;
+}
+
 
 #info p {
     padding: 0 20px;
@@ -488,6 +491,7 @@ hr {
         padding-left: 20px;
     }
 
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -530,10 +534,10 @@ hr {
 
 #wine-link {    
     height: 400px;
-  color: #252525;
-
 }
-
+/* This has it's own id for text concersion againt white background on 767px res */
+#wine-h3-titles {
+    color: #252525;
 
 #sthlm-link {
     height: 400px;
