@@ -164,6 +164,7 @@ main {
     font-size: 80%;
     padding: 10%;
 }
+
 /* Food menu link on index page */
 
 #food-link {
@@ -202,20 +203,21 @@ main {
 
 
 #visit-div {
-text-align: center;
+    text-align: center;
 }
 
 #link-h3-titles {
     color: #fff;
-    text-align:left;
+    text-align: left;
     /* Align text to center */
     position: flex;
     padding: 3%;
 }
+
 /* This has it's own id for text concersion againt white background on 767px res */
 #wine-h3-titles {
     color: #fff;
-    text-align:left;
+    text-align: left;
     /* Align text to center */
     position: flex;
     padding: 3%;
@@ -352,17 +354,20 @@ input[type="submit"]:hover {
 
 
 }
+
 /* Map styling */
 .map-container {
     margin-top: 1em;
     display: flex;
     justify-content: center;
 }
+
 #map-address {
     margin-top: 1em;
     text-align: center;
-    
+
 }
+
 iframe {
     margin-top: 20px;
     width: 80%;
@@ -374,8 +379,9 @@ hr {
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
 .footer {
-    
+
     color: #3a3a3a;
     text-align: center;
     padding: 20px;
@@ -412,7 +418,7 @@ hr {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    
+
     padding: 20px 0;
     gap: 2rem;
     /* Adds some space between social media icons */
@@ -515,32 +521,45 @@ hr {
     }
 
 
-    #social-networks i:hover, #info-div h3:hover {
+    #social-networks i:hover,
+    #info-div h3:hover {
         color: darkorange;
         /* Change the color to orange on hover */
     }
+
     #arguments {
 
         font-size: 200%;
     }
+
     /* Food menu link on index page */
 
-#food-link {
+    #food-link {
 
-    height: 400px; 
-}
+        height: 400px;
+    }
 
-/* Wine menu link on index page */
+    /* Wine menu link on index page */
 
-#wine-link {    
-    height: 400px;
-}
-/* This has it's own id for text concersion againt white background on 767px res */
-#wine-h3-titles {
-    color: #252525;
+    #wine-link {
+        height: 400px;
+    }
 
-#sthlm-link {
-    height: 400px;
+    /* This has it's own id for text concersion againt white background on 767px res */
+    #wine-h3-titles {
+        color: #252525;
+        font-size: 200%;
+        padding: 4%;
+    }
+
+    #link-h3-titles {
+        font-size: 200%;
+        padding: 4%;
+    }
+
+    #sthlm-link {
+        height: 400px;
+    }
 }
 
 /* Media query: tablets and larger (992px and up) */
@@ -556,9 +575,19 @@ hr {
         bottom: 80px;
     }
 
+    /* Gallery photos column addition */
     #photos {
         column-count: 3;
         column-gap: 0;
+    }
+
+    /* This has it's own id for text concersion againt white background on res */
+    #wine-h3-titles {
+        font-size: 250%;
+    }
+
+    #link-h3-titles {
+        font-size: 250%;
     }
 
 }
@@ -581,6 +610,7 @@ hr {
         width: 40%;
         margin: 0 auto;
     }
+
     #form-section p {
 
         font-size: 90%;
@@ -588,11 +618,20 @@ hr {
         margin-right: 31%;
         margin-bottom: 2%;
     }
+
     #contact-id {
-        
+
         margin-left: 31%;
-        
-    
-   
-    
+    }
+
+    /* This has it's own id for text concersion againt white background on 767px res */
+    #wine-h3-titles {
+        color: #fff;
+        font-size: 250%;
+    }
+
+    #link-h3-titles {
+        font-size: 250%;
+    }
+
 }
