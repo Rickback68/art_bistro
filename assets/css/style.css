@@ -267,8 +267,8 @@ main {
 }
 
 /* This is the style for the imems title only */
-#food-item-title {
-    font-size: 110%;
+#food-item h3 {
+    font-size: 200%;
 }
 
 /* This is the style for the three menu courses starters, main and dessert */
