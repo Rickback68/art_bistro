@@ -241,22 +241,21 @@ main {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+    font-size: 80%;
 }
 
 /* This is the Title of the section MENU */
 .food-title {
 
-    font-size: 300%;
+    font-size: 200%;
     margin-bottom: 20px;
     text-decoration-line: underline;
-
 }
 
 /* This is the general style for all item */
 .food-item {
     font-size: 100%;
     margin-bottom: 20px;
-
 }
 
 /* This is the style for the imems title only */
@@ -590,6 +589,12 @@ hr {
         font-size: 250%;
     }
 
+    #food-section {
+       
+        font-size: 120%;
+    }
+    
+
 }
 
 /* Media query: tablets and larger (1440px and up) */
@@ -624,7 +629,7 @@ hr {
         margin-left: 31%;
     }
 
-    /* This has it's own id for text concersion againt white background on 767px res */
+    /* This has it's own id for text concersion againt black/white background  */
     #wine-h3-titles {
         color: #fff;
         font-size: 250%;
