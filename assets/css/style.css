@@ -124,7 +124,7 @@ main {
     margin-top: 39px;
 }
 
-/* Welcome picture selector mbl view */
+/* Welcome picture set for mbl view */
 #welcome {
     height: 720px;
     width: 100%;
@@ -168,7 +168,6 @@ main {
 /* Food menu link on index page */
 
 #food-link {
-
     margin-top: 20px;
     line-height: 20px;
     margin-bottom: 20px;
@@ -180,7 +179,6 @@ main {
 /* Wine menu link on index page */
 
 #wine-link {
-
     margin-top: 20px;
     line-height: 20px;
     margin-bottom: 20px;
@@ -189,10 +187,9 @@ main {
     text-decoration: none;
 }
 
-/* Wine menu link on index page */
+/* Night Stockholm pic */
 
 #sthlm-link {
-
     margin-top: 20px;
     line-height: 20px;
     margin-bottom: 20px;
@@ -228,7 +225,6 @@ main {
     padding: 0 20px;
 }
 
-
 #foodie-p {
     font-size: 100%;
 }
@@ -246,7 +242,6 @@ main {
 
 /* This is the Title of the section MENU */
 .food-title {
-
     font-size: 200%;
     margin-bottom: 20px;
     text-decoration-line: underline;
@@ -275,7 +270,6 @@ main {
     scroll-margin-top: 300px;
     /* Adjust this value as needed to show the top of the section */
 }
-
 
 /* Gallery page */
 
@@ -309,8 +303,6 @@ main {
     margin-bottom: 100px;
     /* Add margin-bottom to create space after the contact form */
 }
-
-
 
 form {
     width: 100%;
@@ -380,7 +372,6 @@ hr {
 }
 
 .footer {
-
     color: #3a3a3a;
     text-align: center;
     padding: 20px;
@@ -417,7 +408,6 @@ hr {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-
     padding: 20px 0;
     gap: 2rem;
     /* Adds some space between social media icons */
@@ -512,7 +502,6 @@ hr {
     }
 
     #form-section p {
-
         font-size: 80%;
         margin-left: 25%;
         margin-right: 25%;
@@ -527,14 +516,12 @@ hr {
     }
 
     #arguments {
-
         font-size: 200%;
     }
 
     /* Food menu link on index page */
 
     #food-link {
-
         height: 400px;
     }
 
@@ -548,12 +535,12 @@ hr {
     #wine-h3-titles {
         color: #252525;
         font-size: 200%;
-        padding: 4%;
+        padding: 3%;
     }
 
     #link-h3-titles {
         font-size: 200%;
-        padding: 4%;
+        padding: 3%;
     }
 
     #sthlm-link {
@@ -590,10 +577,8 @@ hr {
     }
 
     #food-section {
-       
         font-size: 120%;
     }
-    
 
 }
 
@@ -625,7 +610,6 @@ hr {
     }
 
     #contact-id {
-
         margin-left: 31%;
     }
 
