@@ -159,7 +159,19 @@ main {
     margin: 20px auto;
 }
 
-#presentation-div {
+#presentation1-div {
+    text-align: center;
+    font-size: 80%;
+    padding: 10%;
+}
+
+#presentation2-div {
+    text-align: center;
+    font-size: 80%;
+    padding: 10%;
+}
+
+#presentation3-div {
     text-align: center;
     font-size: 80%;
     padding: 10%;
@@ -167,7 +179,7 @@ main {
 
 /* Food menu link on index page */
 
-#food-link {
+#foody-link {
     margin-top: 20px;
     line-height: 20px;
     margin-bottom: 20px;
@@ -521,8 +533,9 @@ hr {
 
     /* Food menu link on index page */
 
-    #food-link {
+    #foody-link {
         height: 400px;
+        text-decoration: none;
     }
 
     /* Wine menu link on index page */
