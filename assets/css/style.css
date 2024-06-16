@@ -23,7 +23,7 @@ body {
 
 /* Header Styling*/
 header {
-    background-color: orange;
+    background-color: rgb(255, 174, 24);
     padding: 0 0rem;
     /* padding left and right to prevent our heading text from sticking to the side of the screen. */
     position: fixed;
