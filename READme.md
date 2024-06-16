@@ -388,8 +388,6 @@ Although a few human factor errors that were corrected it passsed without any er
 - Google Lighthouse was also used to test the performance of the website with success. Please see screenshots below for shared results.
 
 
-
-
 Index html
 
 ![alt text](docs/validation-tests/lighthouse/pc_lighthouse_index.png)
