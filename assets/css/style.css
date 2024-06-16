@@ -18,12 +18,12 @@ body {
     display: flex;
     flex-direction: column;
     /* For generic project styles */
-    color: #3a3a3a;
+    color: #252525;
 }
 
 /* Header Styling*/
 header {
-    background-color: rgb(255, 174, 24);
+    background-color: orange;
     padding: 0 0rem;
     /* padding left and right to prevent our heading text from sticking to the side of the screen. */
     position: fixed;
