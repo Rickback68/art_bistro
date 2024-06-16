@@ -34,8 +34,8 @@ https://rickback68.github.io/art_bistro/
 6. [Testing](#code-validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
-    3. [Accessibility](#accessibility)
-    4. [Performance](#performance)
+    3. [Accessibility and Performance](#accessibility-and-performance)
+    4. [Performance](#accessibility)
     5. [Device testing](#device-testing)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
@@ -309,13 +309,23 @@ Users can make reservations seamlessly, improving the overall dining experience 
 ### HTML Validation
 The HTML of the website was validated using the W3C Markup Validation Service, and all pages passed without any errors or warnings.
 
+Index html
+
 ![alt text](docs/validation-tests/w3c_validation/w3c_index_validated.png)
+
+Dine html
 
 ![alt text](docs/validation-tests/w3c_validation/w3c_dine_validated.png)
 
+Wine htlm
+
 ![alt text](docs/validation-tests/w3c_validation/w3c_wine_validated.png)
 
+Gallery html
+
 ![alt text](docs/validation-tests/w3c_validation/w3c_gallery_validated.png)
+
+Contact html
 
 ![alt text](docs/validation-tests/w3c_validation/w3c_contact_validated.png)
 
@@ -325,21 +335,39 @@ Although a few human factor errors that were corrected it passsed without any er
 
 ![alt text](docs/validation-tests/w3c_validation/w3c_css_approved.png)
 
-### Accessibility
-Google Lighthouse in Google Chrome Developer Tools was used to test the accessibilty of the website. See results in the following screenshots below.
+### Accessibility and Performance
+
+#### Accessibility
+
+- Google Lighthouse in Google Chrome Developer Tools was used to test the accessibilty of the website. Please see screenshots below for shared results.
+
+#### Performance
+
+- Google Lighthouse was also used to test the performance of the website with success. Please see screenshots below for shared results.
+
+
+
+
+Index html
 
 ![alt text](docs/validation-tests/lighthouse/pc_lighthouse_index.png)
 
+Dine html
+
 ![alt text](docs/validation-tests/lighthouse/pc_lighthouse_dine.png)
+
+Wine html
 
 ![alt text](docs/validation-tests/lighthouse/pc_lighthouse_wine.png)
 
+Gallery html
+
 ![alt text](docs/validation-tests/lighthouse/pc_lighthouse_gallery.png)
+
+Contact html
 
 ![alt text](docs/validation-tests/lighthouse/pc_lighthouse_contact.png)
 
-### Performance 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. (Please see results above in screenshots above.)
 
 ### Device Testing
 The website was tested on the following devices with success:
