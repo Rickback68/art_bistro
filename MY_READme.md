@@ -5,7 +5,7 @@
 
 https://rickback68.github.io/art_bistro/
 
-![Mockup image](../docs/am_i_responsive.png)
+![Mockup image](docs/am_i_responsive.png)
 
 
 
@@ -22,7 +22,7 @@ https://rickback68.github.io/art_bistro/
     1. [Design Choices](#design-choices)
     2. [Colour](#colours)
     3. [Fonts](#fonts)
-    4. [Structure](#structure)
+    4. [Structure](#site-structure)
     5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
@@ -36,7 +36,7 @@ https://rickback68.github.io/art_bistro/
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
+    5. [Device testing](#device-testing)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
@@ -49,7 +49,7 @@ https://rickback68.github.io/art_bistro/
 
 This web site project for Art Bistro is designed to showcase the culinary excellence and artistic flair that the restaurant has to offer. With a focus on fusion cuisine inspired by European and Scandinavian flavors, Art Bistro provides a unique dining experience for foodies and fine dining enthusiasts alike.
 
-The website features an array of information for potential customers, including the restaurant's background, menu offerings, wine selections, and contact information. Users can easily navigate through the website to find what they are looking for, whether it be booking a table, exploring the gallery of dishes, checking opening hours, or following Art Bistro on social media.
+The website features an array of information for potential customers, including the restaurant's concept,menu offerings, wine selections, a gallery, and contact information. Users can easily navigate through the website to find what they are looking for, whether it be enquiring about a table, exploring the gallery of dishes, checking opening hours, or following Art Bistro on social media.
 
 Through user stories for Art Bistro customers, we have identified the needs and expectations of potential visitors to the website. By addressing these user stories, we aim to provide a seamless and informative experience for users interested in dining at Art Bistro.
 
@@ -58,23 +58,22 @@ Overall, our goal with this web site project is to showcase the unique culinary 
 ### User Goals
 - Finding a restaurant that offers a nice atmosphere and modern fusion food.
 - See a full menu with clear pricing.
-- Find information about the restaurant.
-- Find the location of the restaurant
+- Find information about the restaurants opening hours.
+- Find the location and see som pictures of the restaurant
 
 ### Site Owner Goals
 - Increase in the number of customers.
 - Promote the bussines.
-- Provide a way for new and existing customers to contact the     buissnes.
+- Provide a way for new and existing customers to contact the buissnes.
 - Provide essential information about the bussines to customers.
 
-### User Experience
+## User Experience
 
 ### Target Audience
-- Foodies
-- People looking for good food in Stockholm
+- Foodies and fusion kitchen lovers.
+- Local, visiters and tourists looking for good food in Stockholm
 - People looking to induge in an food experience
-- Groups of people wanting to find a cozy local bistro 
-
+- Groups of people wanting to find a cozy local bistro to meet up at.
 
 ### User Requrements and Expectations
 
@@ -90,56 +89,61 @@ Overall, our goal with this web site project is to showcase the unique culinary 
 
 #### First-time User
 
-Location: 
-1. As a first-time user, I want to easily locate the restaurant.
+1. Location: 
+As a first-time user, I want to easily locate the restaurant.
 
-Pricing: 
-2.  As a first-time user, I want to know the price range of the restaurant.
+2. Pricing: 
+As a first-time user, I want to know the price range of the restaurant.
 
-Information: 
-3. As a first-time user, I want to learn more about the restaurant.
+3. Information: 
+As a first-time user, I want to learn more about the restaurant.
 
-Expectations: 
-4. As a first-time user, I want to get a sense of what to expect at the restaurant.
+4. Expectations: 
+As a first-time user, I want to get a sense of what to expect at the restaurant.
 
 #### Returning User
 
-Opening Times: 
-6. As a returning user, I want to know the restaurant's operating hours.
+5. Opening Times: 
+As a returning user, I want to know the restaurant's operating hours.
 
-Reservation: 
-7. As a returning user, I want to find a contact number for making reservations.
+6. Reservation: 
+As a returning user, I want to find a contact number for making reservations.
 
-Menu: 
-8. As a returning user, I want to see the restaurant's menu.
+7. Menu: 
+As a returning user, I want to see the restaurant's current menus.
 
-Social Media: 
-9. As a returning user, I want to easily find the restaurant on social media platforms.
+8. Feedback:
+As a returning user, I want to leave some comment, feedback or a message to the staff
 
-Directions: 
-10. As a returning user, I want to get directions to the restaurant.
+9. Social Media: 
+As a returning user, I want to easily find the restaurant on social media platforms to follow.
+
+10. Directions: 
+As a returning user, I want to get directions to the restaurant or a map.
 
 #### Site Owner
 
-Updates: 
-11. As the site owner, I want users to stay informed about upcoming events or changes in operational hours.
+11. Introduction: 
+As the site owner, I want users to get acquainted with the restaurant.
 
-Introduction: 
-12. As the site owner, I want users to get acquainted with the restaurant.
-
-Contact: 
-13. As the site owner, I want users to have easy access to contact us.
+12. Contact: 
+As the site owner, I want users to have easy access to contact us.
 
 
 ## Design
 
-### Colour
-For the colour sheme Orange tones were chosen to match the images on the page and make the page "pop" and "burst" with colors and contrast.
+### Design Choices
+The webpage was designed with warm colorsthe feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
 
 
-##### Wireframes 
+### Colours
+For the colour sheme Orange tones were chosen to match the images on the page and make the page "pop" and "burst" with color and contrast.
 
-##### Site Structure
+### Fonts
+
+The fonts used in this page are "Montserrat" and "Oswald" from Google Fonts.
+
+### Site Structure
 
 The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
 The website consists of five separate pages: 
@@ -158,10 +162,29 @@ Header containing logo, navigation menu, and burger icon for mobile view.
 - Main section with welcome message, presentation sections for menu, wine, and night life, and a section talking about the bistro.
 - Footer section with opening hours, contact information, address, and social media links.
 
+### Wireframes 
+Enter pictures 
 
-##### Imagery Used
 
-##### Typography 
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Git
+- GitHub
+- Gitpod
+- JPG to WEBP Converter
+- Miro
+- Google Fonts
+- Font Awsome
+- Favicon.io
+
+#### Imagery Used
+
+#### Typography 
 
 
 ## Features 
@@ -271,13 +294,12 @@ Users can easily get in touch with the restaurant, leading to improved customer 
 
 (insert picture)
 
-
-___Features Left to Implement__
+### Future Features
+__Features Left to Implement__
 
 Online Reservation System
 Implementing an online reservation system would allow users to book tables directly through the website, enhancing convenience.
 Users can make reservations seamlessly, improving the overall dining experience at Art Bistro.
-
 
 
 #### Testing
@@ -285,37 +307,57 @@ Users can make reservations seamlessly, improving the overall dining experience 
 ## Code Validation
 
 ### HTML Validation
-The HTML of the website was validated using the W3C Markup Validation Service, and all pages passed without any errors or warnings.- HTML
+The HTML of the website was validated using the W3C Markup Validation Service, and all pages passed without any errors or warnings.
+
+![alt text](docs/validation-tests/w3c_validation/w3c_index_validated.png)
+
+![alt text](docs/validation-tests/w3c_validation/w3c_dine_validated.png)
+
+![alt text](docs/validation-tests/w3c_validation/w3c_wine_validated.png)
+
+![alt text](docs/validation-tests/w3c_validation/w3c_gallery_validated.png)
+
+![alt text](docs/validation-tests/w3c_validation/w3c_contact_validated.png)
 
 ### CSS Validation
 The website's CSS was checked for accuracy using the W3C Jigsaw CSS Validation Service.
 Although a few human factor errors that were corrected it passsed without any errors.
 
+![alt text](docs/validation-tests/w3c_validation/w3c_css_approved.png)
 
-### Performing tests on various devices 
-The website was tested on the following devices:
+### Accessibility
+Google Lighthouse in Google Chrome Developer Tools was used to test the accessibilty of the website. See results in the following screenshots below.
+
+![alt text](docs/validation-tests/lighthouse/pc_lighthouse_index.png)
+
+![alt text](docs/validation-tests/lighthouse/pc_lighthouse_dine.png)
+
+![alt text](docs/validation-tests/lighthouse/pc_lighthouse_wine.png)
+
+![alt text](docs/validation-tests/lighthouse/pc_lighthouse_gallery.png)
+
+![alt text](docs/validation-tests/lighthouse/pc_lighthouse_contact.png)
+
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. (Please see results above in screenshots above.)
+
+### Device Testing
+The website was tested on the following devices with success:
 - Macbook Pro M1
 - Samsung S20 phone
 - Iphone 11
 
+
 ### Browser compatability
-The website was tested on the following browsers:
+The website was tested on the following browsers with success:
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Egde
 - Duckagogo
 
-### Accessibility
-The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+#### Testing user stories
 
-In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
-
-### Performance 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
-
-#### Testing of user stories
-
-1. As a first time user, I want to know where the restaurant is lokated
+1. As a first-time user, I want to easily locate the restaurant.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -324,66 +366,51 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 
 
-2. As a first time user, I want to know the price range
+2. As a first-time user, I want to know the price range of the restaurant.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the Menu page | See prices on menu page | Works as expected |
+| Menu | Navigate to the Menu and Wine pages | See prices on pages | Works as expected |
 
 
 
-3. As a first time user, I want to know more about the restaurant
+3. As a first-time user, I want to learn more about the restaurant.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | Navigate to the About page and locate the About Us section | Find description of the restaurant | Works as expected |
-| Customer reviews | Navigate to the About page, scroll down to What our guests say section | Read customer reviews | Works as expected | 
+| About Us | A section at the bottom of the index page i dedicated to About Us | Find description of the restaurant | Works as expected |
 
 
-
-4. As a first time user, I want to get a feel of what to expect at the restaurant
+4. As a first-time user, I want to get a sense of what to expect at the restaurant.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
-| Promo video | Navigate to the GAlelry page and scroll to the promo video | Watch promo video | Works as expected |
 
 
-
-5. As a returning user, I want to see the Sunday meal offer
+5. As a returning user, I want to know the restaurant's operating hours.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Meal-deal | On home page scroll down to the Sunday meal deal section | Find the meal-deal for the upcomming Sunday | Works as expected |
+| Footer - opening hours section | On any page scroll to the footer | See opening hours | Works as expected |
 
 
-
-6. As a returnign user, I want to know the opening times
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Footer - opening times section | On any page scroll to the footer | See opening times | Works as expected |
-
-<
-
-7. As a returning user, I want to find a phone number to call for reservation
+6. As a returning user, I want to find a contact number for making reservations.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | See phone number | Works as expected |
 
-<
 
-8. As a returning user, I want to see the menu
+7. As a returning user, I want to see the restaurant's menus.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Menu | Navigate to the menu page | Read the menu | Works as expected |
+| Menu | Navigate to the Dine or Wine menu page | Read the menus | Works as expected |
 
 
 
-9. As a returning user, I want to leave some comment, suggestion or message to the staff
+8. As a returning user, I want to leave some comment, suggestion or message to the staff
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -391,23 +418,14 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 
 
-10. As a returning user, I want to find the restaurant on social media
+9. As a returning user, I want to easily find the restaurant on social media platforms to follow.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected | 
 
 
-
-11. As a returning user, I want to know who is preparing the food
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Meet the Chef | Navigate to the About page and scroll down to Meet the Chef section | Find brief bio of the Chef | Works as expected |
-
-
-
-12. As a returning user, I want to get directions to the restaurant
+10. As a returning user, I want to get directions to the restaurant or a map.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -415,70 +433,24 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 
 
 
-13. As the site owner, I want users to find news about upcoming events or changes in opening times
+
+
+11. As the site owner, I want users to get acquainted with the restaurant.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| News | Scroll down on home page and locate news section | Find latest news | Works as expected |
+| First page | Navigate and scroll through pages to get to know the concept and feel of the restaurant | See relevant information about the restaurant | Works as expected |
 
 
 
-14. As the site owner, I want users to get to know the restaurant 
+12. As the site owner, I want users to have easy access to contact us.
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| About Us | Navigate to About page and locate About Us section | See relevant information about the restaurant | Works as expected |
-
-
-
-15. As the site owner, I want the users to be able to contact us
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
-| Info Box | Navigate to Contact Us page and locate the How to find us section | Find the phone number | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the phone number | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the phone number and email address| Works as expected |
 
-
-___User Stories for Art Bistro Customer:___
-
-As a potential customer, I want to know that Art Bistro offers great food in the heart of Stockholm.
-
-As a food connoisseur, I want to experience the fusion of fine dining and artistic flair at Art Bistro.
-
-As a customer, I want to know that Art Bistro uses locally sourced ingredients to create culinary masterpieces.
-
-As a visitor, I want to find information about Art Bistro and what it has to offer.
-
-As a customer, I want to know the opening hours of Art Bistro to plan my visit.
-
-As a customer, I want to easily find the contact information for Art Bistro.
-
-As a potential customer, I want to know that Art Bistro is located on Hamngatan 13 in Södermalm.
-
-As a visitor, I want to be able to easily navigate through the website using the menu options provided.
-
-As a customer, I want to be able to book a table at Art Bistro through the website.
-
-As a customer, I want to see a gallery of the dishes served at Art Bistro.
-
-As a customer, I want to know the phone number for Art Bistro in case I have any inquiries.
-
-As a customer, I want to know the email address for Art Bistro to contact them for reservations.
-
-As a customer, I want to know the specific address of Art Bistro to easily find the location.
-
-As a food enthusiast, I want to see the opening hours of Art Bistro to plan my visit accordingly.
-
-As a customer, I want to stay updated with Art Bistro's social media pages for any promotions or events.
-
-As a customer, I want to easily access Art Bistro's Facebook page by clicking on the provided link.
-
-As a customer, I want to easily access Art Bistro's Twitter page by clicking on the provided link.
-
-As a customer, I want to easily access Art Bistro's YouTube page by clicking on the provided link.
-
-As a customer, I want to easily access Art Bistro's Instagram page by clicking on the provided link.
 
 
 ##### Bugs?
@@ -494,7 +466,7 @@ As a customer, I want to easily access Art Bistro's Instagram page by clicking o
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-### Deployment
+## Deployment
 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
