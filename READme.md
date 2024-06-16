@@ -135,11 +135,16 @@ As the site owner, I want users to have easy access to contact us.
 ## Design
 
 ### Design Choices
-The webpage was designed with warm colorsthe feeling a customer might get while dining at the restaurant. It is calm, warm and inviting. 
+In terms of design choices for a restaurant like Art Bistro, the use of a popping color like orange as the background on the website welcome page can evoke a sense of energy and excitement. This bold choice can immediately grab the attention of potential customers and set the tone for a vibrant and dynamic dining experience.
+
+The use of color in restaurant design is crucial in creating a visually appealing and memorable atmosphere for guests. Colors can influence mood and perception, so choosing the right color palette is key in creating a cohesive and inviting space with white contrast creating air.
+
+Incorporating European and Scandinavian design elements into the restaurant's decor can also enhance the overall dining experience. These sophisticated and elegant styles can add a touch of luxury and sophistication to the space, creating a sense of warmth and comfort for guests.
 
 
 ### Colours
 For the colour sheme Orange tones were chosen to match the images on the page and make the page "pop" and "burst" with color and contrast.
+
 
 ### Fonts
 
@@ -165,7 +170,10 @@ Header containing logo, navigation menu, and burger icon for mobile view.
 - Footer section with opening hours, contact information, address, and social media links.
 
 ### Wireframes 
-Enter pictures 
+
+A simple Wireframe was made in Miro with there Website wireframe template.
+
+![alt text](docs/Features/wireframe_mockup.png)
 
 
 ## Technologies Used
@@ -183,6 +191,7 @@ Enter pictures
 - Google Fonts
 - Font Awsome
 - Favicon.io
+- TinyPNG
 
 #### Imagery Used
 
@@ -544,11 +553,13 @@ The live link can be found here - https://rickback68.github.io/art_bistro/
 
 ## Credits 
 
-- The HTML for the responsive [Navbar with toggler]was taken from CI Love Running project lessons. 
+- The HTML and CSS for the responsive [Navbar with toggler] was borrowed from CI Love Running project lessons. 
+
+- Inspriation was taken from Bodelschwinger Hof READme file and the great index menu as template by Ana Runje on recommendation by mentor.
+https://github.com/4n4ru/CI_MS1_BodelschwingherHof
 
 
 ### Content 
-
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
@@ -559,7 +570,7 @@ The live link can be found here - https://rickback68.github.io/art_bistro/
 
 
 ## Acknowledgements
-I would like to take the opportunity to thank:
+I would like to take the opportunity to thank my mentor Mo Shami, Ana Runje for inspriration. 
 
 
 
