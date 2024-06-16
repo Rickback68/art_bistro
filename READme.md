@@ -3,6 +3,8 @@
 
 (Developed by Lawrence West)
 
+![alt text](docs/Features/Startup.png)
+
 https://rickback68.github.io/art_bistro/
 
 ![Mockup image](docs/am_i_responsive.png)
@@ -228,8 +230,6 @@ links to the Homepage, About page, Menu page, Gallery and Contact us page
 
 __Welcome Section__
 
-
-
 The welcome section with an image and text provides users with an introduction to Art Bistro, showcasing the essence of the restaurant.
 Users get a visual representation of the restaurant's ambiance and offerings, creating anticipation and interest.
 The bottom of the section also contains an About Us section that gives users insight into the ethos and specialties of Art Bistro, creating a connection with potential diners.
@@ -257,18 +257,17 @@ ___Food Menu__
 - Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
 - Each section of the menu is accompanied with an image of one of the items form the menu
 - Features pricing
-- User stories covered:
 
-(insert picture)
+
+![alt text](docs/Features/dine_menu.png)
 
 
 __Wine List and other drinks__
 - Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
 - Each section of the menu is accompanied with an image of one of the items form the menu
 - Features pricing
-- User stories covered:
 
-(insert picture)
+![alt text](docs/Features/wine_menu.png)
 
 Footer
 
@@ -318,13 +317,16 @@ ___Contact Form__
 The contact form allows users to reach out to Art Bistro for inquiries, reservations, or feedback, enhancing communication.
 Users can easily get in touch with the restaurant, leading to improved customer engagement and satisfaction.
 
-![alt text](docs/Features/contact_map.png)
+![alt text](docs/Features/contact_us.png)
 
 ___Map__
 
 - Shows the restaurant location on an embeded Google Map
 
+![alt text](docs/Features/map.png)
 
+
+![alt text](docs/Features/contact_map.png)
 ### Future Features
 __Features Left to Implement__
 
