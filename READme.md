@@ -3,7 +3,7 @@
 
 (Developed by Lawrence West)
 
-![alt text](docs/Features/Startup.png)
+![alt text](docs/features/startup.png)
 
 https://rickback68.github.io/art_bistro/
 
@@ -173,7 +173,7 @@ Header containing logo, navigation menu, and burger icon for mobile view.
 
 A simple Wireframe was made in Miro with there Website wireframe template.
 
-![alt text](docs/Features/wireframe_mockup.png)
+![alt text](docs/features/wireframe_mockup.png)
 
 
 ## Technologies Used
@@ -213,14 +213,14 @@ The page consists of 6 essential pages and typical well know features in a webpa
 
 __Logo & Navigation Bar__
 
-![alt text](docs/Features/logo_navbar.png)
+![alt text](docs/features/logo_navbar.png)
 
 
 
 Featured on all pages, the responsive navigation bar allows users to easily navigate through the website, providing links to different sections like Dine, Wine, Gallery, and Contact.
 Users can easily move between different sections of the website without getting lost, enhancing the user experience.
 
-![alt text](docs/Features/navbar_marker.png)
+![alt text](docs/features/navbar_marker.pngnavbar_marker.png)
 
 - The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
 links to the Homepage, About page, Menu page, Gallery and Contact us page
@@ -230,9 +230,9 @@ links to the Homepage, About page, Menu page, Gallery and Contact us page
 - Just press the area around the logo and the text Art Bistro at any time to go back to the start page index.html.
 
 
-![alt text](docs/Features/burger_navbar.png)
+![alt text](docs/features/burger_navbar.png)
 
-![alt text](docs/Features/burger_open.png)
+![alt text](docs/features/burger_open.png)
 
 - User stories covered:
 
@@ -245,7 +245,7 @@ The bottom of the section also contains an About Us section that gives users ins
 Users can understand the uniqueness of Art Bistro's offerings, making them more inclined to visit and experience the restaurant.
 - User stories covered:
 
-![alt text](docs/Features/main_content.png)
+![alt text](docs/features/main_content.png)
 
 __Menu Navigation__
 
@@ -256,7 +256,7 @@ About Us Section
 
 The about section near the end of the index page give the veiwer an sight to the restaurant vision and intentions. Also close to the footer with further info about hours, location and socialmedia clicks.
 
-![alt text](docs/Features/about_us.png)
+![alt text](docs/features/about_us.png)
 - User stories covered:
 
 
@@ -268,7 +268,7 @@ ___Food Menu__
 - Features pricing
 
 
-![alt text](docs/Features/dine_menu.png)
+![alt text](docs/features/dine_menu.png)
 
 
 __Wine List and other drinks__
@@ -276,7 +276,7 @@ __Wine List and other drinks__
 - Each section of the menu is accompanied with an image of one of the items form the menu
 - Features pricing
 
-![alt text](docs/Features/wine_menu.png)
+![alt text](docs/features/wine_menu.png)
 
 Footer
 
@@ -291,22 +291,22 @@ Users can find relevant information quickly, enhancing their overall experience 
 Hours
 - Business hours
 
-![alt text](docs/Features/footer1.png)
+![alt text](docs/features/footer1.png)
 
 Contact 
  - lights up orange when hovered and links to contact page when clicked.
 
-![alt text](docs/Features/footer2.png)
+![alt text](docs/features/footer2.png)
 
 Location 
  - lights up orange when hovered and gives you linked action to the map on contacts page when clicked.
 
-![alt text](docs/Features/footer3.png)
+![alt text](docs/features/footer3.png)
 
 Social Network icons
 - turn orange on hover and opens a new page. 
 
-![alt text](docs/Features/footer4.png)
+![alt text](docs/features/footer4.png)
 
 __Gallery__
 
@@ -318,7 +318,7 @@ Users can visually explore Art Bistro's offerings, making an informed decision a
 
 - User stories covered: 4
 
-![alt text](docs/Features/gallery.png)
+![alt text](docs/features/gallery.png)
 
 
 ___Contact Form__
@@ -326,16 +326,16 @@ ___Contact Form__
 The contact form allows users to reach out to Art Bistro for inquiries, reservations, or feedback, enhancing communication.
 Users can easily get in touch with the restaurant, leading to improved customer engagement and satisfaction.
 
-![alt text](docs/Features/contact_us.png)
+![alt text](docs/features/contact_us.png)
 
 ___Map__
 
 - Shows the restaurant location on an embeded Google Map
 
-![alt text](docs/Features/map.png)
+![alt text](docs/features/map.png)
 
 
-![alt text](docs/Features/contact_map.png)
+![alt text](docs/features/contact_map.png)
 ### Future Features
 __Features Left to Implement__
 
@@ -429,10 +429,12 @@ The website was tested on the following browsers with success:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
+| Map | Navigate to the Contact Us page or click Contact in footer, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
 | Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
 
-
+<details><summary>Screenshots</summary>
+<img src="docs/features/us1.png">
+</details>
 
 2. As a first-time user, I want to know the price range of the restaurant.
 
@@ -440,14 +442,19 @@ The website was tested on the following browsers with success:
 |-------------|------------|---------------------|-------------------|
 | Menu | Navigate to the Menu and Wine pages | See prices on pages | Works as expected |
 
-
+<details><summary>Screenshots</summary>
+<img src="docs/features/us2.png">
+</details>
 
 3. As a first-time user, I want to learn more about the restaurant.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| About Us | A section at the bottom of the index page i dedicated to About Us | Find description of the restaurant | Works as expected |
+| About Us | A section at the bottom of the index page i dedicated to About Us | Find description of the concept and restaurant | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/features/us3.png">
+</details>
 
 4. As a first-time user, I want to get a sense of what to expect at the restaurant.
 
@@ -455,6 +462,9 @@ The website was tested on the following browsers with success:
 |-------------|------------|---------------------|-------------------|
 | Gallery | Navigate to the Gallery page | Find pictures of the restaurant and food served there | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/features/us4.png">
+</details>
 
 5. As a returning user, I want to know the restaurant's operating hours.
 
@@ -462,6 +472,9 @@ The website was tested on the following browsers with success:
 |-------------|------------|---------------------|-------------------|
 | Footer - opening hours section | On any page scroll to the footer | See opening hours | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/features/us5.png">
+</details>
 
 6. As a returning user, I want to find a contact number for making reservations.
 
@@ -469,6 +482,9 @@ The website was tested on the following browsers with success:
 |-------------|------------|---------------------|-------------------|
 | Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/features/us6">
+</details>
 
 7. As a returning user, I want to see the restaurant's menus.
 
@@ -476,6 +492,9 @@ The website was tested on the following browsers with success:
 |-------------|------------|---------------------|-------------------|
 | Menu | Navigate to the Dine or Wine menu page | Read the menus | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/features/us7.png">
+</details>
 
 
 8. As a returning user, I want to leave some comment, suggestion or message to the staff
@@ -484,7 +503,9 @@ The website was tested on the following browsers with success:
 |-------------|------------|---------------------|-------------------|
 | Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
 
-
+<details><summary>Screenshots</summary>
+<img src="docs/features/us8.png">
+</details>
 
 9. As a returning user, I want to easily find the restaurant on social media platforms to follow.
 
@@ -492,6 +513,9 @@ The website was tested on the following browsers with success:
 |-------------|------------|---------------------|-------------------|
 | Footer - social media section | On any page scroll to the bottom | Click on social media links | Works as expected | 
 
+<details><summary>Screenshots</summary>
+<img src="docs/features/us9.png">
+</details>
 
 10. As a returning user, I want to get directions to the restaurant or a map.
 
@@ -499,7 +523,9 @@ The website was tested on the following browsers with success:
 |-------------|------------|---------------------|-------------------|
 | Map | Navigate to the Contact Us page, locate the map and click on directions link | See directions to the restaurant on Goole Maps | Works as expected |
 
-
+<details><summary>Screenshots</summary>
+<img src="docs/features/us10.png">
+</details>
 
 
 
@@ -509,7 +535,9 @@ The website was tested on the following browsers with success:
 |-------------|------------|---------------------|-------------------|
 | First page | Navigate and scroll through pages to get to know the concept and feel of the restaurant | See relevant information about the restaurant | Works as expected |
 
-
+<details><summary>Screenshots</summary>
+<img src="docs/features/us11.png">
+</details>
 
 12. As the site owner, I want users to have easy access to contact us.
 
@@ -519,7 +547,9 @@ The website was tested on the following browsers with success:
 | Contact Form | Navigate to the Contact Us Page and locate the contact form, fill out and submit contact form | Data submited via contact form | Works as expectd |
 | Footer - contact information section | On any page scroll down to the footer | Find the phone number and email address| Works as expected |
 
-
+<details><summary>Screenshots</summary>
+<img src="docs/features/us12.png">
+</details>
 
 ##### Bugs?
 ## Bugs
