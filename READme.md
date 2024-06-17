@@ -136,7 +136,7 @@ As the site owner, I want users to have easy access to contact us.
 ## Design
 
 ### Design Choices
-In terms of design choices for a restaurant like Art Bistro, the use of a popping color like orange as the background on the website welcome page can evoke a sense of energy and excitement. This bold choice can immediately grab the attention of potential customers and set the tone for a vibrant and dynamic dining experience.
+In terms of design choices for a restaurant like Art Bistro, the use of a popping color like orange as the theme on the website pages can evoke a sense of energy and excitement. This bold choice can immediately grab the attention of potential customers and set the tone for a vibrant and dynamic dining experience.
 
 The use of color in restaurant design is crucial in creating a visually appealing and memorable atmosphere for guests. Colors can influence mood and perception, so choosing the right color palette is key in creating a cohesive and inviting space with white contrast creating air.
 
@@ -149,11 +149,11 @@ For the colour sheme Orange tones were chosen to match the images on the page an
 
 ### Fonts
 
-The fonts used in this page are "Montserrat" and "Oswald" from Google Fonts.
+The fonts used in this page are "Montserrat" and "Oswald" from Google Fonts. Sans-Serif as fallback font.
 
 ### Site Structure
 
-The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
+The page is structured in a well-known, recognizable, user friendly, and easy to learn way. Upon arriving to the website the user sees a familiar type of navigation bar with the restaurant logo on the left side and the navigation links to the right. 
 The website consists of five separate pages: 
 - A start page bursting with color
 - A menu page
@@ -412,7 +412,7 @@ Contact html
 
 #### Accessibility
 
-- Google Lighthouse was used to test the performance of the website with success.
+- Google Lighthouse was used to test the accessibility of the website with success.
 
 Index html
 
@@ -460,7 +460,7 @@ The website was tested on the following browsers with success:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to the Contact Us page or click Contact in footer, locate the Google Map | Locating a map showing the location of the restaurant | Works as expected |
+| Map | Navigate to the Contact page or click Contact in footer, locate the Google Map | A map shows the location of the restaurant | Works as expected |
 | Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
 
 <details><summary>Screenshots</summary>
@@ -514,7 +514,7 @@ The website was tested on the following browsers with success:
 | Footer - contact information section | On any page scroll to the footer | See phone number | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/features/us6">
+<img src="docs/features/us6.png">
 </details>
 
 7. As a returning user, I want to see the restaurant's menus.
@@ -587,13 +587,28 @@ The website was tested on the following browsers with success:
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| Sometimes there is a glich in the logo between | Change active atribute to the correct page |
+| Getting a bad accessibility rating on the contact page with the form: So small small between checkbox to be clicked safely.| Small increased of the gap between and score went from amber to green. |
 | 
+- Rating before:
 
+![alt text](docs/validation-tests/lighthouse/checkbox1.png)
+
+- Before the adjustment:
+
+![alt text](docs/validation-tests/lighthouse/checkbox2.png)
+
+- After the adjustment:
+
+![alt text](docs/validation-tests/lighthouse/checkbox3.png)
+
+
+- Rating up and better design with the smallest of adjustments:
+
+![alt text](docs/validation-tests/lighthouse/checkbox3.png)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+None known or aware of at this deploy date. 
 
 ## Deployment
 
@@ -612,26 +627,34 @@ The live link can be found here - https://rickback68.github.io/art_bistro/
 
 ## Credits 
 
-- The HTML and CSS for the responsive [Navbar with toggler] was borrowed from CI Love Running project lessons. 
+- The HTML and CSS for the responsive [Navbar with toggler] was borrowed from Code Institutes - Love Running project lessons. 
 
-- Inspriation was taken from Bodelschwinger Hof READme file and the great index menu as template by Ana Runje on recommendation by mentor.
-https://github.com/4n4ru/CI_MS1_BodelschwingherHof
+- Inspriation was lended from "Bodelschwinger Hof" READme file and the great index menu as template by Ana Runje on recommendation from my mentor Mo Shami.
+
+- https://github.com/4n4ru/CI_MS1_BodelschwingherHof
 
 
 ### Content 
 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the footer were taken from [FontAwesome] https://fontawesome.com/
+
+- [Favicon] for tab icon is from (https://favicon.io/)
 
 ### Media
 
-- The photos used on the home and sign up page are from https://Pixabay.com and royalty free 
+All photos used on the page are royalty and license free to use for non commercial purposes. They are free from the sites:
+ - https://Pixabay.com
+
+- https://Pexel.com
+
+All screen shots are taken by me Lawrence West.
 
 
 
 ## Acknowledgements
-I would like to take the opportunity to thank my mentor Mo Shami, Ana Runje for inspriration. 
+I would like to take the opportunity to thank my mentor Mo Shami, Ana Runje for inspriration and Code Institute. 
 
-
+Thank You !
 
 
 
