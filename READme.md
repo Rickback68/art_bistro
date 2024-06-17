@@ -32,6 +32,7 @@ https://rickback68.github.io/art_bistro/
 5. [Features](#features)
      1. [Navigation & Existing Features](#navigation-and-existing-features)
      2. [Future Features](#future-features)
+     3. [User Story Score Card](#score-point-card)
 
 6. [Testing](#code-validation)
     1. [HTML Validation](#HTML-validation)
@@ -215,12 +216,10 @@ __Logo & Navigation Bar__
 
 ![alt text](docs/features/logo_navbar.png)
 
-
-
 Featured on all pages, the responsive navigation bar allows users to easily navigate through the website, providing links to different sections like Dine, Wine, Gallery, and Contact.
 Users can easily move between different sections of the website without getting lost, enhancing the user experience.
 
-![alt text](docs/features/navbar_marker.pngnavbar_marker.png)
+![alt text](docs/features/navbar_marker.png)
 
 - The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
 links to the Homepage, About page, Menu page, Gallery and Contact us page
@@ -230,11 +229,10 @@ links to the Homepage, About page, Menu page, Gallery and Contact us page
 - Just press the area around the logo and the text Art Bistro at any time to go back to the start page index.html.
 
 
+
 ![alt text](docs/features/burger_navbar.png)
 
 ![alt text](docs/features/burger_open.png)
-
-- User stories covered:
 
 
 __Welcome Section__
@@ -243,7 +241,7 @@ The welcome section with an image and text provides users with an introduction t
 Users get a visual representation of the restaurant's ambiance and offerings, creating anticipation and interest.
 The bottom of the section also contains an About Us section that gives users insight into the ethos and specialties of Art Bistro, creating a connection with potential diners.
 Users can understand the uniqueness of Art Bistro's offerings, making them more inclined to visit and experience the restaurant.
-- User stories covered:
+- User stories covered: 3
 
 ![alt text](docs/features/main_content.png)
 
@@ -251,21 +249,22 @@ __Menu Navigation__
 
 Links in the main body of the index page link to the food and wine menu and allows users to explore the offerings of Art Bistro in detail.
 Users can easily access the menu sections they are interested in from the top also, making it convenient for them to browse through the options.
+- User stories covered: 12
 
-About Us Section
+__About Us Section__
 
 The about section near the end of the index page give the veiwer an sight to the restaurant vision and intentions. Also close to the footer with further info about hours, location and socialmedia clicks.
+- User stories covered: 3
 
 ![alt text](docs/features/about_us.png)
-- User stories covered:
 
 
-(insert picture)
 
 ___Food Menu__
 - Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
 - Each section of the menu is accompanied with an image of one of the items form the menu
 - Features pricing
+- User stories covered: 4
 
 
 ![alt text](docs/features/dine_menu.png)
@@ -275,6 +274,7 @@ __Wine List and other drinks__
 - Gives an overview of the menu in five sections: starters, main meals, kids meals, dessers, and wine.
 - Each section of the menu is accompanied with an image of one of the items form the menu
 - Features pricing
+- User stories covered: 4
 
 ![alt text](docs/features/wine_menu.png)
 
@@ -285,7 +285,8 @@ ___Footer Section__
 The footer section provides essential information like opening hours, contact details, and location, enabling users to get in touch or visit Art Bistro easily.
 Users can find relevant information quickly, enhancing their overall experience and engagement with the restaurant.
 - Featured on all five pages
-- Consists of four sections: 
+- Consists of four sections:
+- User stories covered: 7
 
 
 Hours
@@ -316,7 +317,7 @@ Users can visually explore Art Bistro's offerings, making an informed decision a
 
 - Imagery of the restaurant arranged in a grid. 1 column for phones and the 2 or three columns depending on the largers size. 
 
-- User stories covered: 4
+- User stories covered: 3
 
 ![alt text](docs/features/gallery.png)
 
@@ -325,17 +326,20 @@ ___Contact Form__
 
 The contact form allows users to reach out to Art Bistro for inquiries, reservations, or feedback, enhancing communication.
 Users can easily get in touch with the restaurant, leading to improved customer engagement and satisfaction.
+- User stories covered: 3
 
 ![alt text](docs/features/contact_us.png)
 
 ___Map__
 
 - Shows the restaurant location on an embeded Google Map
+- User stories covered: 2
 
 ![alt text](docs/features/map.png)
 
 
 ![alt text](docs/features/contact_map.png)
+
 ### Future Features
 __Features Left to Implement__
 
@@ -343,8 +347,12 @@ __Features Left to Implement__
 Implementing an online reservation system would allow users to book tables directly through the website, enhancing convenience.
 Users can make reservations seamlessly, improving the overall dining experience at Art Bistro.
 
+### Score Point Card 
+ - User Story Mapping 
 
-#### Testing
+![alt text](docs/features/user_story_mapping.png)
+
+## Testing
 
 ## Code Validation
 
