@@ -381,20 +381,14 @@ Contact html
 
 ### CSS Validation
 The website's CSS was checked for accuracy using the W3C Jigsaw CSS Validation Service.
-Although a few human factor errors that were corrected it passsed without any errors.
 
 ![alt text](docs/validation-tests/w3c_validation/w3c_css_approved.png)
 
-### Accessibility and Performance
-
-#### Accessibility
-
-- Google Lighthouse in Google Chrome Developer Tools was used to test the accessibilty of the website. Please see screenshots below for shared results.
+### Performance and Accessibility
 
 #### Performance
 
-- Google Lighthouse was also used to test the performance of the website with success. Please see screenshots below for shared results.
-
+- Google Lighthouse was used to test the performance of the website with success.
 
 Index html
 
@@ -406,7 +400,7 @@ Dine html
 
 Wine html
 
-![alt text](docs/validation-tests/lighthouse/pc_lighthouse_wine.png)
+![alt text](docs/validation-tests/lighthouse/performance_wine.png)
 
 Gallery html
 
@@ -415,6 +409,35 @@ Gallery html
 Contact html
 
 ![alt text](docs/validation-tests/lighthouse/pc_lighthouse_contact.png)
+
+#### Accessibility
+
+- Google Lighthouse was used to test the performance of the website with success.
+
+Index html
+
+![alt text](docs/validation-tests/lighthouse/accessibility_index.png)
+
+Dine html
+
+![alt text](docs/validation-tests/lighthouse/accessibility_dine.png)
+
+Wine html
+
+![alt text](docs/validation-tests/lighthouse/accessibility_wine.png)
+
+Gallery html
+
+![alt text](docs/validation-tests/lighthouse/accessibility_gallery.png)
+
+Contact html
+
+![alt text](docs/validation-tests/lighthouse/accessibility_contact.png)
+
+
+- Google Lighthouse in Google Chrome Developer Tools was used to test the accessibilty of the website. Please see screenshots below for shared results.
+
+
 
 
 ### Device Testing
